@@ -9,7 +9,8 @@ follow the **steps**:
     *  I created a folder called Chatbot to put both files in it
 1. download anaconda python 3.6 if you didn't found 3.6 install any version i used 3.8.8
 2.  open Anaconda Prompt (miniconda3) :
-   **_note_**  If you want to know the type of version just write  in Prompt this command : ` python` 
+   **_note_**  If you want to know the type of version just write  in Prompt this command : ` python` as python_version.png.
+   
 1. prepare conda environment of python 3.6 by this command :
     `conda create -n chatbot python=3.6` 
   **_note_** chatbot her is just name 
