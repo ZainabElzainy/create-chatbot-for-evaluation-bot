@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up" , "Good morning" , "Good evening" , "hello" , "hey" , "what's up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how was the experience?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","i have to go","gotta go"],
+         "responses": ["have a good day :)", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "goodRate",
+         "patterns": ["good","great", "I enjoyed", "fantastic", "pretty", "nice","beautiful","Well done","satisfied","awesome"],
+         "responses": ["I'm happy for that", "thank you","i'm glad for that" ,"I hope you always satisfied :)"],
+         "context_set": ""
+        },
+        {"tag": "badRate ",
+         "patterns": ["bad", "not good", "not bad", "worst","terrible","horrible","need improvement","need modification","not the best"],
+         "responses": ["Oh! sorry about that.What is your suggestion to improve the experience?", "We apologize for that and look forward to your suggestions?"],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["Id like to", "we can", "i think", "can i tell you something","you should","you must","shall","could","shall","give" ,"whay"],
+         "responses": ["Great idea.thank you :)", "Great! You're really smart, thanks for your suggestion"],
+         "context_set": ""
+        }
+   ]
+}
